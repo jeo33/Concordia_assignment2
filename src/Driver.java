@@ -20,7 +20,8 @@ public class Driver
 {
     public static void main(String[] args) throws IOException {
 
-
+        int quantum=10;
+        int UserQuantum=30;
         if (args.length != 2) {
             System.err.println("Usage: java Driver <algorithm> <schedule>");
             System.exit(0);
@@ -46,9 +47,9 @@ public class Driver
 
         switch(choice) {
             case "FCFS":
-                scheduler = new Priority(queue);
+                scheduler = new FCFS(queue);
                 break;
-           /*
+
             case "SJF":
                 scheduler = new SJF(queue);
                 break;
@@ -56,15 +57,15 @@ public class Driver
                 scheduler = new Priority(queue);
                 break;
             case "RR":
-                scheduler = new RR(queue);
+                scheduler = new RR(queue,quantum);
                 break;
             case "FSS":
-                scheduler = new FSS(queue);
+                scheduler = new FSS(queue,UserQuantum,quantum);
                 break;
             default:
                 System.err.println("Invalid algorithm");
                 System.exit(0);
-            */
+
         }
 
 

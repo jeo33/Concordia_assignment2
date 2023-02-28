@@ -26,7 +26,7 @@ public class Priority implements Algorithm{
         {
             for(int j=i;j<a.size();j++)
             {
-                if(a.get(j).getPriority()<a.get(i).getPriority())
+                if(a.get(j).getPriority()>a.get(i).getPriority())
                 {
                     temp1=a.get(j);
                     a.set(j,a.get(i));

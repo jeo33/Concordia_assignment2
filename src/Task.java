@@ -93,7 +93,7 @@ public class Task
         return
             "Name: " + name + "\n" + 
             "Tid: " + tid + "\n" + 
-            "Priority: " + priority + "\n" + 
+            "Priority/UserID: " + priority + "\n" +
             "Burst: " + burst + "\n";
-    }
-}
+    }}
+
