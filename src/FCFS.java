@@ -13,6 +13,11 @@ public class FCFS implements Algorithm{
         OriginalQueue=queue;
         RQueue=queue;
     }
+
+    FCFS()
+    {
+    }
+
     @Override
     public void schedule() {
         Task temp;

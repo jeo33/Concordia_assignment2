@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c675fa-aa8a-46ff-bba5-fa835c1f528f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FCFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SJF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+    <list default="true" id="74c675fa-aa8a-46ff-bba5-fa835c1f528f" name="Changes" comment="Fcfs done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FCFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FCFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Priority.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -84,11 +77,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677541017750</updated>
-      <workItem from="1677541019190" duration="5995000" />
+      <workItem from="1677541019190" duration="8279000" />
     </task>
+    <task id="LOCAL-00001" summary="Fcfs done">
+      <created>1677547724781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677547724781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="f2f6061d-1965-437a-b6f8-7a6c4f7547a7">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f2f6061d-1965-437a-b6f8-7a6c4f7547a7" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fcfs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fcfs done" />
   </component>
 </project>

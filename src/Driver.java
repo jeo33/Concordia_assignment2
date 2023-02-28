@@ -46,7 +46,7 @@ public class Driver
 
         switch(choice) {
             case "FCFS":
-                scheduler = new FCFS(queue);
+                scheduler = new Priority(queue);
                 break;
            /*
             case "SJF":
