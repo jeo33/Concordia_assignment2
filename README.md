@@ -1,7 +1,7 @@
 # Concordia_COEN346_assignment2
 This is an assignment from Concordia_COEN346_assignment2 2023 winter semester;
 
-p style='color:red'>This is some red text.</p>
+$${\color{red}Red}$$
 !!!!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!!!!!	
 	
 -The program runs as follows
