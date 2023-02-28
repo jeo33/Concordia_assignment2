@@ -1,11 +1,11 @@
 # Concordia_COEN346_assignment2
 This is an assignment from Concordia_COEN346_assignment2 2023 winter semester;
 
-$${\color{red}Red}$$
+$${\color{-The program runs as follows
+---------------------------}Red}$$
 !!!!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!!!!!	
 	
--The program runs as follows
----------------------------
+
 
 -Java: java Driver fcfs schedule.txt
 --------------------------------------
