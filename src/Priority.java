@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Priority implements Algorithm{
@@ -20,22 +21,22 @@ public class Priority implements Algorithm{
 
     public List<Task> Sort(List<Task> a)
     {
-        Task temp1;
-
-        for(int i=0;i<a.size();i++)
+        List<Task> ans=new ArrayList<>();
+        int dummy;
+        while(!a.isEmpty())
         {
-            for(int j=i;j<a.size();j++)
+            dummy=0;
+            for(int j=0;j<a.size();j++)
             {
-                if(a.get(j).getPriority()>a.get(i).getPriority())
+                if(a.get(j).getPriority()>a.get(dummy).getPriority())
                 {
-                    temp1=a.get(j);
-                    a.set(j,a.get(i));
-                    a.set(i,temp1);
+                    dummy=j;
                 }
-
             }
+            ans.add(a.get(dummy));
+            a.remove(dummy);
         }
-        return a;
+        return ans;
     }
 
 

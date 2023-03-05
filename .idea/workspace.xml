@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c675fa-aa8a-46ff-bba5-fa835c1f528f" name="Changes" comment="FSS priority done">
+    <list default="true" id="74c675fa-aa8a-46ff-bba5-fa835c1f528f" name="Changes" comment="RR and Fair share scheduling are done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FSS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Priority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SJF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SJF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/zsy11/IdeaProjects/Assignment2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +64,7 @@
     <configuration name="Driver" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Assignment2" />
-      <option name="PROGRAM_PARAMETERS" value="fcfs schedule.txt" />
+      <option name="PROGRAM_PARAMETERS" value="fss schedule.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677541017750</updated>
-      <workItem from="1677541019190" duration="16339000" />
+      <workItem from="1677541019190" duration="17134000" />
+      <workItem from="1677624307538" duration="2059000" />
+      <workItem from="1678051121568" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="Fcfs done">
       <created>1677547724781</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677563263816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RR and Fair share scheduling are done">
+      <created>1677571208103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677571208103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fcfs done" />
     <MESSAGE value="FSS priority done" />
-    <option name="LAST_COMMIT_MESSAGE" value="FSS priority done" />
+    <MESSAGE value="RR and Fair share scheduling are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="RR and Fair share scheduling are done" />
   </component>
 </project>

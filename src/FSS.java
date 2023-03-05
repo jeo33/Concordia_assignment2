@@ -52,6 +52,7 @@ public class FSS implements Algorithm {
 
     @Override
     public void schedule() {
+        int wait_time_interval=0;
         //System.out.println(AssignUserQueue.toString());
 
         for (Iterator<Integer> it = AssignUserQueue.keys().asIterator(); it.hasNext(); ) {
@@ -61,7 +62,6 @@ public class FSS implements Algorithm {
         }
         while (!UserList.isEmpty())
         {
-
             for(RR x:UserList)
             {
                 if(x.RQueue.isEmpty())
@@ -70,9 +70,14 @@ public class FSS implements Algorithm {
                     break;
                 }
                 else {
-                    x.fss_helper(quantum);
+                    wait_time_interval=x.fss_helper(quantum);
+                    x.WaitTime=x.WaitTime-wait_time_interval*x.RQueue.size();
                 }
                 System.out.println("******************************************************");
+                for(RR z:UserList)
+                {
+                    z.WaitTime+=wait_time_interval*z.RQueue.size();
+                }
             }
         }
 

@@ -60,10 +60,11 @@ public class RR implements Algorithm{
     }
 
 
-    public void fss_helper(int quantum) {
+    public int fss_helper(int quantum) {
         int UserTimeOut = Timeout;
         Task temp;
         int SliceTime;
+        int timeRun=0;
         while (!RQueue.isEmpty()& UserTimeOut !=0)
         {
             temp=pickNextTask();
@@ -78,6 +79,7 @@ public class RR implements Algorithm{
                 SliceTime= UserTimeOut;
             }
             UserTimeOut = UserTimeOut -SliceTime;
+            timeRun+=SliceTime;
             WaitTime=WaitTime+SliceTime*(RQueue.size()-1);
             TurnAroundTime=TurnAroundTime+SliceTime;
             temp.setBurst(temp.getBurst()-SliceTime);
@@ -92,6 +94,7 @@ public class RR implements Algorithm{
                 RQueue.add(temp);
                 RQueue.remove(0);
             }
+
         }
 
         if(RQueue.isEmpty())
@@ -99,6 +102,7 @@ public class RR implements Algorithm{
             System.out.println("Average times: waiting "+WaitTime/size+", turnaround: "+(WaitTime+TurnAroundTime)/size);
 
         }
+        return timeRun;
 
     }
 
